@@ -1,0 +1,223 @@
+body  {
+	background: #1bb0ce;
+	}
+	
+h1 {
+	color: #1bb0ce;
+	padding-bottom: 20px;
+}
+
+label {
+	text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder { font-style: italic; color: white !important; }
+input::-moz-placeholder { font-style: italic; color: white !important; }
+input:-ms-input-placeholder { font-style: italic; color: white !important; }
+input:-moz-placeholder { font-style: italic; color: white !important; }
+
+input.search::-webkit-input-placeholder { font-style: italic; color: #b0b0b0 !important; }
+input.search::-moz-placeholder { font-style: italic; color: #b0b0b0 !important; }
+input.search:-ms-input-placeholder { font-style: italic; color: #b0b0b0 !important; }
+input.search:-moz-placeholder { font-style: italic; color: #b0b0b0 !important; }
+
+.wrap {
+	background: -webkit-linear-gradient(#f3f3f3;, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#f3f3f3, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f3f3f3, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f3f3f3, white); /* Standard syntax */
+}
+
+/* Header */
+
+.stripe {
+    background: #1bb0ce;
+	height: 15px;
+}
+
+.logo {
+	background: url("../img/vsakdanjedarilo.png") no-repeat;
+    width: 200px;
+    height: 100px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    .logo {
+	background: url("../img/vsakdanjedarilo@2x.png") no-repeat;
+    background-size: cover;
+	}
+}
+
+.navbar {
+	background: #fff;
+}
+
+.navbar-nav{
+	padding-left: 30px;
+}
+
+.navbar-nav > li {
+
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 10px 15px 10px 15px;
+    margin: 35px 5px 20px 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > input {
+    margin: 35px 5px 20px 10px;
+    border-radius: 5px;
+}
+
+
+.navbar-default .navbar-nav a {
+	color: #000;
+}
+
+.headerbtn-prijava {
+/*     outline: 1px solid #ff9c00 !important;
+ */    
+	box-shadow: 0 0 0 1pt #ff9c00;
+	color: #ff9c00 !important;
+	background-color: #fff !important;
+    text-transform: none !important;
+}
+
+.header-srch {
+    box-shadow: none;
+    height: 40px;
+    color: #555;
+    background-color: #f3f3f3;
+    border: 0px;
+    padding: 15px 10px 15px 10px;
+	color: #b0b0b0;
+}
+
+/* Form */
+
+.pentlja {
+	background: url("../img/ribbon.png") no-repeat;
+	width: 50px;
+	height: 25px;
+	margin-top: 40px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    .logo {
+	background: url("../img/ribbon@2x.png") no-repeat;
+    background-size: cover;
+	}
+}
+
+.form-wrap {
+    padding: 20px 20px 30px 20px;
+	border-top: 3px solid #ff9c00;
+	background-color: #fff;
+}
+
+.form-control{
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+    height: 45px;
+    font-size: 18px;
+	background-color: #1bb0ce;
+	color: #fff;
+	font-size: 1em;
+}
+
+.form-links {
+	color: #b0b0b0;
+	font-size: 0.8em;
+}
+
+.btn-registracija {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #ff9c00;
+    color: #ff9c00;
+	background-color: #fff;
+}
+
+.btn-prijava {
+    text-transform: uppercase;	
+    font-weight: bold;
+    border: 2px solid #ff9c00;
+    color: #fff;
+	background-color: #ff9c00;
+}
+
+.btn-form {
+	padding: 10px 5px;
+}
+
+.btnsoc-text {
+	font-size: 0.8em;
+	padding: 5px 0px;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+.btn-nazaj {
+	background-color: #ff0063;
+    text-transform: uppercase;	
+    font-weight: bold;
+	border: 0px;
+    padding: 15px 25px 15px 25px;
+    margin: 35px 5px 20px 5px;
+	color: #fff;
+}
+
+
+/* Footer */
+
+.footer {
+	color: #fff;
+}
+
+.footer a {
+	color: #fff;
+    text-decoration: none;
+}
+
+.footer a:active {
+    font-weight: 600;
+}
+
+.footer-top { 
+	margin-top:20px; 
+}
+
+.nav-footer li {
+	list-style: none;
+	padding:0;
+	margin: 0 20px 0 0;
+	display:inline;
+}
+
+.footerbtn {
+    border: 1px solid #fff;
+    color: #1bb0ce !important;
+	background-color: #fff;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+	text-align:center;
+
+}
